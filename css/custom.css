@@ -6,11 +6,22 @@
 	background: #e7e7e7;
 }
 
-
 .jumbotron img{
-	width: 200px;
-	height:260px;
+	width: 100%;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.sm-h1{
+		font-size: 27px !important;
+	}
+	
+	.sm-p{
+		font-size: 18px;
+	}
+}
+
+
 @font-face {
   font-family: 'socials';
   src: url('../font/socials.eot?41358260');
