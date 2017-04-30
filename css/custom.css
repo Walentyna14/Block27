@@ -1,26 +1,14 @@
-.navbar{
-	margin-bottom: 1px;
-}
-
-.navbar li:hover{
-	background: #e7e7e7;
-}
-
-.jumbotron img{
-	width: 100%;
-}
-
+.navbar{margin-bottom: 1px;}
+.navbar-brand{color: #21a3c3 !important;}
+.navbar li:hover{background: #e7e7e7;}
+.jumbotron img{width: 100%;}
+.sm-h1{font-size: 100%;}
+.sm-p{font-size: 70%;}
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	.sm-h1{
-		font-size: 27px !important;
-	}
-	
-	.sm-p{
-		font-size: 18px;
-	}
+@media screen and (min-width: 768px)
+{
+.jumbotron p {font-size: 40px;}
 }
-
 
 @font-face {
   font-family: 'socials';
